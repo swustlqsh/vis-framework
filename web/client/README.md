@@ -1,10 +1,8 @@
 # 教程
-https://confluence.b.360.cn/pages/viewpage.action?pageId=10092607
 
 # 安装
 * `npm install` 或者 `cnpm install`
-* 天眼Npm源切换 `npm(cnpm) set registry http://10.95.24.22:5010/`
-* 天眼Npm服务 http://10.95.24.22:5011/
+
 
 # 使用
 * dev(开发模式): `npm run dev`
@@ -12,7 +10,6 @@ https://confluence.b.360.cn/pages/viewpage.action?pageId=10092607
 
 # 自定义配置
 * 配置文件: `config.custom.js`
-* 配置文档: http://10.95.24.22:5011/package/@qnpm/skyfenv
 
 # 本地开发配置
 * 配置文件: `local.config.js`
