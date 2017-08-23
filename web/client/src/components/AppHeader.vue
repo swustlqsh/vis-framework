@@ -12,7 +12,7 @@
   export default {
     data () {
       return {
-        messages: 'Visualization Analysis System'
+        messages: 'Graph Layout Test System'
       }
     },
     ready () {}
@@ -33,7 +33,7 @@
         color: #a4aebd;
         margin: 0;
         float: left;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 30px;
       }
