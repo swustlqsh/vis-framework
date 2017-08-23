@@ -14,7 +14,7 @@
   import AppLeftMenu from '../components/AppLeftMenu.vue'
   import config from '../commons/config'
   import GraphChart from '../charts/GraphChart'
-  import graph from '../../data/miserables.json' 
+  import graph from '../../data/miserables'
 
   // import $ from 'jquery'
 
@@ -37,6 +37,7 @@
     },
     components: { AppHeader, AppLeftMenu },
     ready () {
+      console.log(debug)
       this.graph = new GraphChart(this.$els.graph)
       this.graph.draw(graph)
     }

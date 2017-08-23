@@ -95,14 +95,14 @@ var config = {
   // 变量提供, 对于一些非模块化的包, 为了解决模块化引入时包依赖加载的问题, 需要将该包暴露到全局变量
   // 比如`'$': 'jquery'`, 全局变量为`$`, 包名为`jquery`, 有些时候为了可靠性还需要暴露几种常见的名称
   provide: {
-    '$': 'jquery',
-    'window.$': 'jquery',
-    'jQuery': 'jquery',
-    'window.jQuery': 'jquery',
-    'd3': 'd3',
-    'window.d3': 'd3',
-    '_': 'lodash',
-    'window._': 'lodash'
+    // '$': 'jquery',
+    // 'window.$': 'jquery',
+    // 'jQuery': 'jquery',
+    // 'window.jQuery': 'jquery',
+    // 'd3': 'd3',
+    // 'window.d3': 'd3',
+    // '_': 'lodash',
+    // 'window._': 'lodash'
   },
   // 静态资源favicon和css, 直接通过`<link>`标签引入不需要在模块中引入, 不会被打包进对应的bundle
   assets: {
